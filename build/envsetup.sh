@@ -721,7 +721,7 @@ function mka() {
     m -j "$@"
 }
 
-function cmka() {
+function cm() {
     if [ ! -z "$1" ]; then
         for i in "$@"; do
             case $i in
